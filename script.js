@@ -6,7 +6,7 @@ let counterValue = 0;
 
 incrementButton.addEventListener("click" , () => {
 
-	alert(`Current value: ${counterValue}`);
+	alert(counterValue);
 
 	counterValue++;
 
